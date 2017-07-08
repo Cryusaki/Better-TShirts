@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/ThingDefs/ThingDef[defName = "Apparel_BasicShirt"]/graphicData/texPath</xpath>
+			<value>
+				<texPath>Clothing/ShirtBasic/ShirtBasic</texPath>
+			</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/ThingDefs/ThingDef[defName = "Apparel_BasicShirt"]/apparel/worngraphicPath</xpath>
+			<value>
+				<worngraphicPath>Clothing/ShirtBasic/ShirtBasic</worngraphicPath>
+			</value>
+	</Operation>
+	
+</Patch>
